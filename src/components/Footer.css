@@ -1,0 +1,56 @@
+.page {
+  background-color: #F8E4D7;
+  color: #363636;  
+}
+
+.footer {
+  padding: none;
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-self: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  background-color: #44A52A;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icon.facebook::after {
+  background-image: url("https://img.icons8.com/ios-filled/50/ffffff/facebook-f.png");
+}
+
+.icon.instagram::after {
+  background-image: url("https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png");
+}
+
+.icon.twitter::after {
+  background-image: url("https://img.icons8.com/ios-filled/50/ffffff/twitter.png");
+}
+
+.icon.linkedin::after {
+  background-image: url("https://img.icons8.com/ios-filled/50/ffffff/linkedin.png");
+};
