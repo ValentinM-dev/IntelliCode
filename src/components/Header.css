@@ -2,3 +2,55 @@
     padding: 0%;
     margin: 0%;
 }
+
+.LogoIC {
+    width: 8%;
+    position: relative;
+    height: auto;
+    padding: 1%;
+    left: 2%
+    }
+
+.navigation {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.navAccueil{
+    position: absolute;
+    right: 45%;
+    top: 5%;
+}
+
+.navTendance{
+    position: absolute;
+    right: 40%;
+    top: 5%;
+}
+
+.navFavoris{
+    position: absolute;
+    right: 35%;
+    top: 5%;
+}
+
+.navSaisonnier{
+    position: absolute;
+    right: 30%;
+    top: 5%;
+}
+
+
+
+
+
+
+
