@@ -16,7 +16,8 @@
     font-weight: 400;
     font-style: normal;
     display: flex;
-    
+    font-size: 1.5em;
+    list-style: none;
 }
 
 a {
@@ -28,6 +29,7 @@ a {
     position: absolute;
     right: 45%;
     top: 5%;
+
 }
 
 .navTendance{
@@ -48,8 +50,28 @@ a {
     top: 5%;
 }
 
+.research{
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: none;
+}
 
+.iconLoupe {
+    width: 8%;
+}
 
+.iconResearch {
+    position: absolute;
+    left: 86%;
+    top: 5.5%;
+}
+
+.navbar {
+    background-color: #f1ddd2;
+}
 
 
 

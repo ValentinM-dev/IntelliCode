@@ -4,6 +4,7 @@ import IntelliCook from "../assets/IntelliCook.png";
 import loupe from "../assets/loupe.png";
 function Header() {
     return (
+        <header>
         <div className="logo">
             <nav className="navbar">
                 <img src={IntelliCook} alt="logo" className="LogoIC"></img>
@@ -24,13 +25,13 @@ function Header() {
                   </ul>
                   <form className="formResearch">
                     <input className="research" type="search"/>
-                    <button className="iconResearch" type="submit">
+                    <a className="iconResearch" href="">
                         <img src={loupe} alt="Loupe" className="iconLoupe"/>
-                    </button>
+                    </a>
                   </form>
                   </nav>
                 </div>
-       
+                </header>
 
     );
 };
