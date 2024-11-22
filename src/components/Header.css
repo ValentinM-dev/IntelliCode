@@ -1,0 +1,78 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.LogoIC {
+    width: 8%;
+    position: relative;
+    height: auto;
+    padding: 1%;
+    left: 2%
+    }
+
+.navigation {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.navAccueil{
+    position: absolute;
+    right: 45%;
+    top: 5%;
+
+}
+
+.navTendance{
+    position: absolute;
+    right: 40%;
+    top: 5%;
+}
+
+.navFavoris{
+    position: absolute;
+    right: 35%;
+    top: 5%;
+}
+
+.navSaisonnier{
+    position: absolute;
+    right: 30%;
+    top: 5%;
+}
+
+.research{
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    padding: 10px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.iconLoupe {
+    width: 8%;
+}
+
+.iconResearch {
+    position: absolute;
+    left: 86%;
+    top: 5.5%;
+}
+
+.navbar {
+    background-color: #f1ddd2;
+}
+
+
+
+
