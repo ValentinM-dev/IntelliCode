@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Footer from "./components/Footer.js"; 
+import PageRecettes from "./components/PageRecettes.js";
 
 function App() {
   return (
     <div className="App">
-      <Footer className="App-footer">
+      <PageRecettes className="App-pagrec "> (//*App-footer*//)
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-      </Footer>
+      </PageRecettes>
     </div>
   );
 }

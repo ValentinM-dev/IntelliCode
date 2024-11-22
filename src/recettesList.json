@@ -1,0 +1,124 @@
+{
+
+    "recette": [
+
+        
+
+        {
+
+            "plat": "Ratatouille",
+            "nbPers": 4,
+            "imageRecet": "./assets/imgRecet/Ratatouille.png",
+            "etape": ["Lavez et détaillez les courgettes, l'aubergine, le poivron vert et le rouge, en cubes de taille moyenne.",
+                    "Coupez les tomates en quartiers et émincez l'oignon."],
+            "ingredients": [ 
+                {"aliment": "Courgettes", "quantity": 2 },
+                {"aliment": "Aubergines", "quantity": 1, "cuisson": 40, "imgAliment": "./assets/aliments/aubergine.jpg" },
+                {"aliment": "Poivrons", "quantity": 2},
+                {"aliment": "Tomates", "quantity": 4, "unit": "pieces or 1 can"},
+                {"aliment": "Oignons", "quantity": 1, "unit": "piece"},
+                {"aliment": "Ail", "quantity": 2, "unit": "gousse"},
+                {"aliment": "Herbes de Provence", "quantity": 1, "unit": "cuillère à café"}, 
+                {"aliment": "Huile d'olive", "quantity": 2, "unit": "cuillères à soupe"}, 
+                {"aliment": "Sel", "quantity": "to taste", "unit": ""},
+                {"aliment": "Poivre", "quantity": "to taste", "unit": ""}
+
+            ]
+
+        },
+
+        {
+
+            "plat": "Soupe de légumes",
+            "nbPers": 4,
+            "ingredients": [
+                {"aliment": "Pommes de terre", "quantity": 2, "unit": "pieces"},
+                {"aliment": "Carottes", "quantity": 2, "unit": "pieces"},
+                {"aliment": "Oignons", "quantity": 1, "unit": "piece"},
+                {"aliment": "Poireaux ou céleri", "quantity": 1, "unit": "branch (optional)"},
+                {"aliment": "Bouillon cube", "quantity": 1, "unit": "piece"},
+                {"aliment": "Eau", "quantity": 1, "unit": "litre"}, 
+                {"aliment": "Sel", "quantity": "to taste", "unit": ""},
+                {"aliment": "Poivre", "quantity": "to taste", "unit": ""}
+
+            ]
+
+        },
+
+        {
+
+            "plat": "Poulet curry coco",
+
+            "nbPers": 4,
+
+            "ingredients": [
+
+                {"aliment": "Filets de poulet", "quantity": 400, "unit": "gr"}, 
+
+                {"aliment": "Lait de coco", "quantity": 200, "unit": "ml"},  
+
+                {"aliment": "Curry", "quantity": 1, "unit": "cuillères à soupe"},
+
+                {"aliment": "Ail", "quantity": 1, "unit": "gousse"}, 
+
+                {"aliment": "Oignon", "quantity": 1, "unit": "piece"},
+
+                {"aliment": "Huile d'olive", "quantity": 2, "unit": "cuillères à soupe"},
+
+                {"aliment": "Sel", "quantity": "to taste", "unit": ""},
+
+                {"aliment": "Poivre", "quantity": "to taste", "unit": ""}
+
+            ]
+
+        },
+
+        {
+
+            "plat": "Salade César au poulet",
+
+            "nbPers": 4,
+
+            "ingredients": [
+
+                {"aliment": "Filets de poulet", "quantity": 300, "unit": "gr"},
+
+                {"aliment": "Laitue", "quantity": 1, "unit": "head"},
+
+                {"aliment": "Croutons", "quantity": 100, "unit": "gr"},
+
+                {"aliment": "Parmesan", "quantity": 50, "unit": "gr"},
+
+                {"aliment": "Vinaigrette César", "quantity": 100, "unit": "ml"}
+
+            ]
+
+        },
+
+        {
+
+            "plat": "Tarte aux pommes",
+
+            "nbPers": 4,
+
+            "ingredients": [
+
+                {"aliment": "Pâte brisée", "quantity": 1, "unit": "piece"},
+
+                {"aliment": "Pommes", "quantity": 4, "unit": "pieces"},
+
+                {"aliment": "Sucre", "quantity": 50, "unit": "grams"},
+
+                {"aliment": "Beurre", "quantity": 20, "unit": "grams"},
+
+                {"aliment": "Cannelle", "quantity": 1, "unit": "cuillères à café"}
+
+            ]
+
+        }
+
+       
+
+    ]
+
+}

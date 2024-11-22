@@ -4,11 +4,12 @@ import './index.css';
 import Footer from "./components/Footer.js"
 import App from "./App"; 
 import reportWebVitals from './reportWebVitals';
+import PageRecettes from "./components/PageRecettes.js";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <PageRecettes />
   </React.StrictMode>
 );
 
