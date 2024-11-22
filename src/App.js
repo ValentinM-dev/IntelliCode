@@ -4,8 +4,10 @@ import Header from "./components/Header.js"
 
 function App() {
   return (
-    <Header />
-<Footer />
+    <div className="App">
+  <Header />
+  <Footer />
+  </div>
   );
 }
 
