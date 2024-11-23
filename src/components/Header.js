@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import IntelliCook from "../assets/IntelliCook.png";
+import IntelliCook from "../assets/intellicook.png";
 import loupe from "../assets/loupe.png";
 function Header() {
     return (

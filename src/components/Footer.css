@@ -13,7 +13,9 @@
   display: flex;
   justify-content: right;
   flex-wrap: wrap;
-  gap: 20px;
+  position: absolute;
+  bottom: 7%;
+  left: 90%
 }
 
 .social-icons {
