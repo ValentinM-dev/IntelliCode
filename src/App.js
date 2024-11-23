@@ -1,13 +1,13 @@
 import './App.css';
 import Footer from './components/Footer.js'
 import Header from './components/Header.js'
-import Accueil from './components/Accueil.js'
+import Acceuil from './components/Acceuil.js'
 
 function App() {
   return (
     <div className="App">
     <Header />
-    <Accueil />
+    <Acceuil />
     <Footer />
     </div>
   );
@@ -18,4 +18,3 @@ function App() {
 export default App;
 
 
-console.log(Accueil)
