@@ -1,0 +1,46 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+body{
+    background-color: #f1ddd2;
+}
+.pres{
+    width: 40%;
+    margin-left: 5em;
+    padding-right: 4em;
+}
+
+.logoName{
+   width: 30em;
+    margin-top: 6.5em;
+    margin-bottom: 2em;
+    
+}
+
+
+.logo1{
+    display: flex;
+    text-align: left;
+}
+
+.title{
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+}
+
+.slogan{
+    font-size: 1.5em;
+    margin-top: 0.3em;
+    font-weight: 400;
+}
+
+.cuisine{
+    margin-top: 3.5em;
+    width: 12em;
+    height: 2.5em;
+    border-radius: 3em;
+    background-color: rgb(2, 172, 2);
+    
+}
