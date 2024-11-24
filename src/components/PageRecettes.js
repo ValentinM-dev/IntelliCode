@@ -1,5 +1,5 @@
 import React from "react"; 
-import "../src/recettesList.json";
+import "./src/recettesList.json";
 import './src/components/PageRecettes.css'; /*Pour import CSS, on mets pas son nom avant lien */
 
 const Card = ({ recette, imageRecet }) => {
@@ -9,7 +9,7 @@ const Card = ({ recette, imageRecet }) => {
                 alt={recette} className="recipe-image"/>
             <h2>{recette}</h2>
             <button onClick={() => { location.href = "https://www.page.de.la.recette.clicked"; }} 
-                id="Button" className="cook-button">{Cliquez-moi pour lire en détails toute la recette !}</button>
+                id="Button" className="cook-button">Cliquez-moi pour lire en détails toute la recette !</button>
         </div>
     );
 };
