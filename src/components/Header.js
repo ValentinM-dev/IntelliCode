@@ -23,12 +23,6 @@ function Header() {
                         <a className="saisonnier" href="">Saisonnier</a>
                     </li>
                   </ul>
-                  <form className="formResearch">
-                    <input className="research" type="search"/>
-                    <a className="iconResearch" href="">
-                        <img src={loupe} alt="Loupe" className="iconLoupe"/>
-                    </a>
-                  </form>
                   </nav>
                 </div>
                 </header>
