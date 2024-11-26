@@ -1,0 +1,50 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.textIngredientSelect {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+.placementIngredientInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 15px;
+    
+}
+
+.resultatRecherchePlat {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.alimentSelector{
+    text-align: center;
+}
+
+.buttonGarder{
+    border-radius: 50%;
+    width: 1%;
+    padding: 2px;
+    background-color: greenyellow;
+}
+
+.buttonEviter{
+    border-radius: 50%;
+    width: 1%;
+    padding: 2px;
+    background-color: lightcoral; 
+}
+
+.buttonSuprimer{
+    border-radius:25%;
+    width: auto;
+    background-color: lightcoral;
+}
